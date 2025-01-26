@@ -1,3 +1,6 @@
+<script>
+
+
 const form = document.getElementById("contactForm");
 const fullName = document.getElementById("fullName");
 const email = document.getElementById("email");
@@ -75,3 +78,4 @@ clearButton.addEventListener("click", () => {
   messageError.textContent = "";
   successMessage.textContent = "";
 });
+ </script>
